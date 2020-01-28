@@ -1,0 +1,54 @@
+.topnavn{
+    display: flex;
+}
+a{
+    padding:50px;
+}
+#securityguard{
+    background-image:url(./lin.jpg ) ;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#shambaboy{
+    background-image: url(./shamba.jpeg) ;
+    height: 400px;
+    width:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+
+/*.float{
+    float:right;
+    display: flex;
+    flex-direction: column; 
+    
+}*/
+section{
+    display:flex;
+    flex-direction: column-reverse;
+    background-color: blue;
+}
+#houselps{
+    display:flex;
+    flex-direction: row;
+}
+.househelps{
+    background-image: url(./home.jpeg) ;
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cleaners{
+    background-image: url(./clean.jpeg) ;
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
