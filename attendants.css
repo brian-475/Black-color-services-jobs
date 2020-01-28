@@ -31,7 +31,6 @@ a{
 section{
     display:flex;
     flex-direction: column-reverse;
-    background-color: blue;
 }
 #houselps{
     display:flex;
@@ -43,6 +42,7 @@ section{
     width: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: larger;
 }
 #cleaners{
     background-image: url(./clean.jpeg) ;
@@ -50,5 +50,35 @@ section{
     width: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: x-large;
+ 
 }
+#ll{
+    position: absolute;
+    /* text-align:right; */
+    right: 20px;
+    top: 1500px;
+    font-size: larger;
+    font-weight: 100;
+}
+#ku{
+    position: absolute;
+    right: 20px;
+    top: 600px;
+    font-size: larger;
+    font-weight: 100;
+}
+#sl{
+    position: absolute;
+    right:20px;
+    top: 1100px;
+    font-size:larger;
+    font-weight: 100;
+}
+#tl{
+    text-align: center;
+}
+
+
+
 
