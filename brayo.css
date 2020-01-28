@@ -83,3 +83,12 @@ align-items: center;
 input [type=text]{
 width:100%;
 }
+#footer2{
+    float:right;
+    margin:10%;
+}
+#footer{
+    float:left;
+    margin:10%;
+}
+
