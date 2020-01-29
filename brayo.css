@@ -1,10 +1,12 @@
 
-
+*{
+    font-family: 'Courgette', cursive;
+}
 #job0{
     background-image: url("https://bit.ly/2vlvHNw");
     background-size: cover;
     background-repeat: no-repeat;
-
+background-attachment: fixed;
 }
 nav li {
     display:inline-block;
@@ -26,6 +28,7 @@ h1{
 .p{
     color:black;
     font-size: xx-large;
+    
 }
 #job1{
 background-color: blanchedalmond;
