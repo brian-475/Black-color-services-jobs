@@ -5,17 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="attendants.css">
 </head>
 <body>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Kenya.html">Kenya</a></li>
+            <li><a href="abroad.html">Abroad</a></li>
+            <li><a href="attendants.html">Seek-Attendant</a></li>
+        </ul>
+    </nav>
+    <div class="dropdown">
+        <button class="dropbtn">SEEK ATTENDANTS</button>
+        <div class="dropdown-content">
+        <a href="#cleaners">Cleaners</a>
+        <a href="#househelps">Househelps</a>
+        <a href="#securityguard">Security guards</a>
+        <a href="#shambaboy">Shambaboy</a>
+        </div>
+      </div>
     <h1>Seek Attendants</h1>
-    <div class="one">
+    <!-- <div class="one">
         <div class="topnav">
             <a href="#securityguard">Security guards</a>
             <a href="#shambaboy">Shambaboy</a>
             <a href="#househelps">Househelps</a>
             <a href="#cleaners">Cleaners</a>
-        </div>
+        </div> -->
     </div>
     <div>
         <div id="securityguard">
@@ -73,15 +91,47 @@
                 Firstname:<input type="text"name="fname"><br>
                 Lastname:<input type="text"name="lname"><br>
                 E-mail:<input type="email"name="email"autocomplete="off"><br>
-                <input type="radio"name="gender"value="male"checked>Male<br>
-                <input type="radio"name="gender"value="male"checked>Female<br>
-                <input type="radio"name="gender"value="other"checked>Other<br>
-                <input type=
+                Countries<select name="countries">
+                    <option value="kenya">Kenya</option>
+                    <option value="qatar">Qatar</option>
+                    <option value="saudi arebia">Saudi Arebia</option>
+                    <option value="canada">Canada</option>
+                </select>
+                <br><br>
+                Gender<select name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label>Message:</label><br>
+                <textarea name="message"placeholder="write your message here"></textarea><br>                
                 <input type="submit">
-    
              </form>
         </div>
-        
+        <footer>
+            <div id="first">
+                <h3>Objective and Mission</h3>
+                <p>Create economic opportunity for every member of<br>
+                    the global workforce.Simply, we are connecting the<br>
+                    world’s professionals to make them more productive<br>
+                    and successful.</p>
+            </div>
+
+        <div>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+        </div>
+            <div>
+                <h3>Support</h3>
+                <p>Get to us by use of Any of Below</p>
+                <p>Tel:+004563892572</p>
+                <p>Mobile:+254 765 4567 <br>or  :+254 786 3697</p>
+                <p>Email:Black.color.jobs3456@outlook.com</p>
+            </div>
+        </footer>
         
 </body>
 </html>
