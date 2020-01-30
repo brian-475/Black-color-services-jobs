@@ -5,7 +5,7 @@
     justify-content: center
     }
 .container div{
-    background-color: yellowgreen;
+    background-color:rgb(252, 211, 149);
     width: 80%;
     margin: 10px;
     font-size: 20px;
@@ -14,41 +14,72 @@ h1{
  color: rgb(17, 17, 13); 
  text-align: center; 
 }
-nav{
-  display:flex;
-    height:250px;
-    margin:0;
-    padding:0;
-    background-image:url("./images/house-office-painting-renovations-services-nairobi-kenya.jpg");
+h2{
+    font-size: x-large;
+    line-height:20px ;
+    color: blue;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+#nav{
+  /* display:flex; */
+     height:200px;
+
+    
+    background-image:url("https://bit.ly/38RUK9I");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
-ul{
-    display:flex;
-    margin:40px;
-    padding:5px;
+nav{
+    padding:16px;
+    display: inline-block;
+    display: flex;
+    justify-content: center; 
+    /* background-color: blueviolet; */
+
 }
-li{
-    list-style-type: none;
-    margin:10px;
-    background-color: blanchedalmond;
-}
-li a:hover{
+
+ul a:hover{
     background-color: floralwhite;
     padding:20px;
-}
-nav>ul>li>{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-}
-.panel{
-    border:3px solid blue ;
-    background-color: cornsilk;
-}
+}    
+a{
+    padding:40px;
+    font-size: 70px;
+    color: blueviolet;
+    text-decoration: none;
+
+} 
+
+
+.accordion {
+    background-color: rgb(66, 22, 228);
+    color : #444;
+    cursor: pointer; 
+    padding: 5px;
+    width: 20%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(207, 15, 15);
+  }
+  
+  .panel {
+    padding: 0 1px;
+    background-color: rgb(212, 28, 28);
+    max-height: 0;
+    /* overflow: hidden; */
+    z-index:26;
+    transition: max-height 0.2s ease-out;
+  }
+  
 a{
     text-decoration: none;
     font-size: larger;
@@ -59,7 +90,7 @@ a{
 footer{
     margin:0;
     padding:0;
-    background-color: rgb(35, 194, 197);
+    background-color:darkolivegreen;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
