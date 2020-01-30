@@ -18,12 +18,15 @@ h2{
     font-size: x-large;
     line-height:20px ;
     color: blue;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Cinzel', serif;
+    
+
+    /* font-family: 'Shadows Into Light', cursive; */
 
 }
 #nav{
   /* display:flex; */
-     height:200px;
+     height:300px;
 
     
     background-image:url("https://bit.ly/38RUK9I");
