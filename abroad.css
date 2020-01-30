@@ -5,10 +5,11 @@
     justify-content: center
     }
 .container div{
-    background-color:rgb(252, 211, 149);
+    background-color:darkolivegreen;
     width: 80%;
     margin: 10px;
     font-size: 20px;
+    color: wheat;
 }
 h1{
  color: rgb(17, 17, 13); 
@@ -19,6 +20,7 @@ h2{
     line-height:20px ;
     color: blue;
     font-family: 'Cinzel', serif;
+    color: wheat;
     
 
     /* font-family: 'Shadows Into Light', cursive; */
@@ -53,6 +55,7 @@ a{
     font-size: 70px;
     color: blueviolet;
     text-decoration: none;
+    color: teal;
 
 } 
 
@@ -88,7 +91,7 @@ a{
     font-size: larger;
     font-weight: 300;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(221, 8, 8);
+    color: teal;
 }
 footer{
     margin:0;
@@ -97,5 +100,6 @@ footer{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    color: wheat;
 
 }
